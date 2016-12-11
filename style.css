@@ -59,6 +59,9 @@ h6 {
 }
 
 @media (max-width:768px) {
+  .container {
+    margin-top: 2em;
+  }
   .card {
     width: 60%;
   }
