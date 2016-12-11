@@ -1,0 +1,31 @@
+body {
+  background-color: #222;
+  background-image: url('../assets/bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Julius Sans One';
+  font-weight: 100;
+}
+
+.mt {
+  margin-top: 5%;
+}
+
+.card {
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+  color: #ccc;
+}
+
+.card-info {
+  padding: 10px 20px 20px;
+}
