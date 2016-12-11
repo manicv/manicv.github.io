@@ -1,3 +1,4 @@
+/* MAIN */
 body {
   background-color: #333;
   background-image: url(assets/bg.jpg);
@@ -5,6 +6,7 @@ body {
   background-position: bottom center;
   background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px #000;
 }
 
 h1,
@@ -25,20 +27,18 @@ h6 {
   margin-top: 5em;
 }
 
+/* HELPERS */
 .center-block {
   margin-left: auto;
   margin-right: auto;
 }
 
-hr {
-  border-top: 1px dotted #ccc;
-}
-
+/* CARD */
 .card {
   background-color: rgba(0,0,0,0.5);
   color: #ccc;
-  max-width: 500px;
-  min-width: 300px;
+  width: 35%;
+  box-shadow: 0px 3px 20px rgba(0,0,0,0.8);
 }
 
 .card-photo img {
@@ -49,4 +49,26 @@ hr {
 
 .card-body {
   padding: 30px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:1024px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media (max-width:768px) {
+  .card {
+    width: 60%;
+  }
+}
+
+@media (max-width:425px) {
+  .container {
+    margin-top: 2em;
+  }
+  .card {
+    width: 90%;
+  }
 }
