@@ -4,6 +4,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  text-shadow: 1px 1px #000;
 }
 
 h1,
@@ -21,8 +22,8 @@ h6 {
 }
 
 .card {
-  background-color: rgba(0,0,0,0.5);
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.7);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.7);
   color: #ccc;
 }
 
