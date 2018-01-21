@@ -1,0 +1,42 @@
+html,
+body {
+  background-color: #eee;
+  color: #333;
+}
+
+a,
+a:hover {
+  transition: 0.2s;
+}
+a {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.row.dark {
+  background-color: #222;
+  color: #fafafa;
+}
+.row.dark a {
+  color: #fafafa;
+}
+.row.dark a:hover {
+  color: #3399cc;
+}
+
+.jumbotron {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2; /* Twitter blue according to brand guidelines */
+}
+.fa-twitch:hover {
+  color: #6441A4; /* Twitch purple according to brand guidelines */
+}
+.fa-youtube:hover {
+  color: #e52d27; /* Youtube red according to brand guidelines */
+}
