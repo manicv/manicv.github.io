@@ -4,15 +4,24 @@ body {
   color: #333;
 }
 
-a,
-a:hover {
-  transition: 0.2s;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
+
 a {
   text-decoration: underline;
 }
 a:hover {
   text-decoration: none;
+}
+a,
+a:hover {
+  color: #3399cc;
 }
 
 .row.dark {
@@ -25,10 +34,21 @@ a:hover {
 .row.dark a:hover {
   color: #3399cc;
 }
+.row.dark hr {
+  border-color: rgba(255,255,255,0.1);
+}
 
 .jumbotron {
   background-color: transparent;
   margin-bottom: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+.vertical-padding {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .fa-twitter:hover {
