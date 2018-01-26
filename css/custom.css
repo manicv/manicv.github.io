@@ -60,3 +60,6 @@ a:hover {
 .fa-youtube:hover {
   color: #e52d27; /* Youtube red according to brand guidelines */
 }
+.fa-discord:hover {
+  color: #7289DA; /* Discord "blurple" according to brand guidelines */
+}
