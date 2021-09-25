@@ -17,7 +17,7 @@ a:hover {
 }
 
 i {
-  margin: 0 0.5em;
+  margin: 0 1em;
 }
 
 .main {
@@ -51,6 +51,7 @@ i {
 @media only screen and (max-width: 600px) {
   i {
     font-size: 1.5em;
+    margin: 0 0.5em;
   }
 }
 
